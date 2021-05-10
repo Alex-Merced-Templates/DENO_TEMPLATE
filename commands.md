@@ -32,3 +32,7 @@
 ## Notes
 
 - Command Line arguments available in `Deno.args`
+
+- Environment Variables available via `Deno.env.get("VAR")` but must run with `--allow-env` flag
+
+- Dockerfile has the basics of generating a container to deploy your App for Heroku or Fly.io
