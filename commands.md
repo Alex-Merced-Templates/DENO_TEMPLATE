@@ -13,7 +13,8 @@
 - Watch files `--watch --unstable`
 
 - `-A`, `--allow-all` Allow all permissions. This disables all security.
---allow-env Allow environment access for things like getting and setting of environment variables.
+
+- `--allow-env` Allow environment access for things like getting and setting of environment variables `const PORT = Deno.env.get("PORT")` or `const env = Deno.env.toObject()`.
 
 - `--allow-hrtime` Allow high-resolution time measurement. High-resolution time can be used in timing attacks and fingerprinting.
 
